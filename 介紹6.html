@@ -1,0 +1,253 @@
+﻿<!doctype html>
+<html lang=zh-tw>
+    <!--期末專案-->
+    <head>
+        <title>
+            網頁設計 期末專案
+        </title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <style>
+            /*--------------------以下可修改--------------------*/
+            /*----------table----------*/
+            table
+            {
+                margin-left:auto; 
+                margin-right:auto;
+                text-align:center;
+                width: 80%;
+            }
+            td
+            {
+                vertical-align: auto;
+                word-break: break-all;
+            }
+            /*---------- ----------*/
+    
+            /*--------------------格式設定--------------------*/
+            /*----------paragraph----------*/
+            #paragraph
+            {
+                text-align: center;
+                color: white;
+                background-color: black;
+            }
+            /*---------- ----------*/
+            /*----------movie----------*/
+            #movietrset
+            {
+                width: auto;
+                max-width: auto;
+            }
+            #movietextset
+            {
+                width: auto;
+                height: auto;
+                text-align: center;
+                background:linear-gradient;
+                break-before: column;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+            /*---------- ----------*/
+            /*----------intro----------*/
+            #movieintroimg
+            {
+                max-width: 300px;
+                width: auto;
+                height: auto;
+            }
+            #introtitle
+            {
+                text-align: left;
+            }
+            #introcontent
+            {
+                text-align: left;
+                margin: auto;
+                margin-left: 2em;
+            }
+            #iframescale            /*width 100*0.8=80vw width/height*0.8*100=*vw*/
+            {
+                text-align: center;
+                width: 80vw;
+                height: 33.26vw;
+                overflow: hidden;
+            }
+            #iframebox
+            {
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+            #pagetextset
+            {
+                text-align: center;
+            }
+            #intropage
+            {
+                color: lightgray;
+            }
+            #intropageout
+            {
+                color: gray;
+            }
+            #intropageup
+            {
+                color: gray;
+            }
+            #intropagedown
+            {
+                color: gray;
+            }
+            #intropagedisable
+            {
+                color: lightgray;
+            }
+            /*---------- ----------*/
+        </style>
+    </head>
+    <body>
+        <header>
+			<div id="container">
+                <a href="首頁.html"><div id="titleitem">
+                    <h1 id="titlestyle">葳莠影城</h1>
+                </div></a>
+                <div id="titleitem2">
+                    <h1></h1>
+                </div>
+                <a href="活動公告.html"><div id="titleitem">
+                    <h1 id="titlestyle">活動公告</h1>
+                </div></a>
+                <a href="介紹.html"><div id="titleitem">
+                    <h1 id="titlestyle">電影介紹</h1>
+                </div></a>
+                <a href="場次查詢.html"><div id="titleitem">
+                    <h1 id="titlestyle">場次查詢</h1>
+                </div></a>
+                <a href="票價資訊.html"><div id="titleitem">
+                    <h1 id="titlestyle">票價資訊</h1>
+                </div></a>
+			</div>
+        </header>
+        <div>
+            <img id="mainimgset" src="圖片/banner.gif">
+        </div>
+        <div>
+            <h1 id="paragraph">電影介紹</h1>
+        </div>
+        <div>
+            <table>
+                <tr id="movietrset">
+                    <td>
+                        <p>
+                            <a href="介紹1.html">
+                                <img id="imgset" src="圖片/movie1.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹2.html">
+                                <img id="imgset" src="圖片/movie2.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹3.html">
+                                <img id="imgset" src="圖片/movie3.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹4.html">
+                                <img id="imgset" src="圖片/movie4.jpg">
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            <img id="movieintroimg" src="圖片/movie6.jpg">
+                        </p>
+                    </td>
+                    <td colspan="2">
+                        <h3 id="introtitle">導演</h3>
+                        <p id="introcontent">
+                            蓋瑞奇(Guy Ritchie)
+                        </p>
+                        <br>
+                        <h3 id="introtitle">演員</h3>
+                        <p id="introcontent">
+                            威爾史密斯(Will Smith) 、 娜歐蜜史考特(Naomi Scott) 、 馬文坎薩利(Marwan Kenzari) 、 努曼阿卡爾(Numan Acar)                     
+                        <br>
+                        <h3 id="introtitle">簡介</h3>
+                        <p id="introcontent">
+                            擦亮神燈 小心翼翼許下三個願望...<br>
+                            <br>
+                            在沙漠中心的古老城市裡，藏著神祕的傳說，只要獲得帶有魔法的神燈，
+                            法力無邊的精靈就會實現你的三個願望。機智的窮小子阿拉丁，
+                            遇上了勇敢獨立的茉莉公主，對抗邪惡巫師賈方，阻止他密謀叛變奪取國王寶座，
+                            藉由幽默調皮的神燈精靈出手相助，譜出一段浪漫的愛情故事。
+                            《阿拉丁》真人版電影音樂將由曾獲8座奧斯卡金像獎的配樂大樂艾倫孟肯擔任配樂，
+                            當中包括曾獲奧斯卡最佳原創歌曲的《A Whole New World》，
+                            更有全新創作的兩首歌曲。<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <p id="iframescale">
+                            <iframe id="iframebox" src="https://www.youtube.com/embed/tgZunR_QI40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p id="pagetextset">
+                <span id="intropagedown"><a href="介紹5.html">&lt</a></span>
+                <span id="intropageout"><a href="介紹2.html">2</a></span>
+                <span id="intropageout"><a href="介紹3.html">3</a></span>
+                <span id="intropageout"><a href="介紹4.html">4</a></span>
+                <span id="intropageout"><a href="介紹5.html">5</a></span>
+                <span id="intropage"><a href="介紹6.html">6</a></span>
+                <span id="intropageout"><a href="介紹7.html">7</a></span>
+                <span id="intropageout"><a href="介紹8.html">8</a></span>
+                <span id="intropageup"><a href="介紹7.html">&gt</a></span>
+            </p>
+        </div>
+        <footer>
+            <div id="footercontainer">
+                <div id="footeritem">
+                    <p id="footertextpos">&copy 網頁設計期末專案</p>
+                </div>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+                <a href="聯絡我們.html"><div id="footeritem">
+                    <p>聯絡我們</p>
+                </div></a>
+                <a href="意見回饋.html"><div id="footeritem">
+                    <p>意見回饋</p>
+                </div></a>
+                <a href="影城據點.html"><div id="footeritem">
+                    <p>影城據點</p>
+                </div></a>
+                <a href="隱私權.html"><div id="footeritem">
+                    <p>隱私權策略</p>
+                </div></a>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+			</div>
+        </footer>
+    </body>
+</html>

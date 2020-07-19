@@ -1,0 +1,375 @@
+﻿<!doctype html>
+<html lang=zh-tw>
+    <!--期末專案-->
+    <head>
+        <title>
+            網頁設計 期末專案
+        </title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <style>
+            /*--------------------以下可修改--------------------*/
+            /*----------form----------*/
+            form
+            {
+                margin: auto;
+                padding: 0;
+                width: auto;
+            }
+            p#selectset
+            {
+                text-align: center;
+            }
+            select#selectset
+            {
+                text-align: center;
+                width: 250px;
+            }
+            /*---------- ----------*/
+            /*----------table----------*/
+            table
+            {
+                margin-left:auto; 
+                margin-right:auto;
+                text-align:center;
+                width: 100%;
+            }
+            td
+            {
+                vertical-align: auto;
+            }
+            /*---------- ----------*/
+    
+            /*--------------------格式設定--------------------*/
+            /*----------paragraph----------*/
+            #paragraph
+            {
+                text-align: center;
+                color: white;
+                background-color: black;
+            }
+            /*---------- ----------*/
+            /*----------movie----------*/
+            #movietrset
+            {
+                width: auto;
+                max-width: auto;
+            }
+            #movietextset
+            {
+                width: auto;
+                height: auto;
+                text-align: center;
+                background:linear-gradient;
+                break-before: column;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+            /*---------- ----------*/
+            /*----------location----------*/
+            #location
+            {
+                width: auto;
+                max-width: auto;
+            }
+            #locationtextset
+            {
+                width: auto;
+                text-align: center;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+            /*---------- ----------*/
+            /*----------about----------*/
+            #aboutbg
+            {
+                background-image:url(圖片/about.jpg);
+                background-color: black;
+                background-size:100% auto;
+            }
+            p#about
+            {
+                width: 70%;
+                margin-left: 15%;
+                color: lightgray;
+            }
+            /*---------- ----------*/
+        </style>
+    </head>
+    <body>
+        <header>
+			<div id="container">
+                <a href="首頁.html"><div id="titleitem">
+                    <h1 id="titlestyle">葳莠影城</h1>
+                </div></a>
+                <div id="titleitem2">
+                    <h1></h1>
+                </div>
+                <a href="活動公告.html"><div id="titleitem">
+                    <h1 id="titlestyle">活動公告</h1>
+                </div></a>
+                <a href="介紹.html"><div id="titleitem">
+                    <h1 id="titlestyle">電影介紹</h1>
+                </div></a>
+                <a href="場次查詢.html"><div id="titleitem">
+                    <h1 id="titlestyle">場次查詢</h1>
+                </div></a>
+                <a href="票價資訊.html"><div id="titleitem">
+                    <h1 id="titlestyle">票價資訊</h1>
+                </div></a>
+			</div>
+        </header>
+        <div>
+            <img id="mainimgset" src="圖片/banner.gif">
+        </div>
+        <div>
+            <h1 id="paragraph">預約訂票</h1>
+        </div>
+        <div>
+            <form>
+                <p id="selectset">
+                    選擇影城
+                    <select name="" id="selectset">
+                        <optgroup label="北部">
+                            <option label="台北信義葳莠影城"></option>
+                            <option label="台北京站葳莠影城"></option>
+                            <option label="台北日新葳莠影城"></option>
+                        </optgroup>
+                        <optgroup label="中部">
+                            <option label="台中大遠百葳莠影城"></option>
+                            <option label="台中TIGER CITY葳莠影城"></option>
+                        </optgroup>
+                        <optgroup label="南部">
+                            <option label="台南大遠百葳莠影城"></option>
+                            <option label="台南南紡葳莠影城"></option>
+                            <option label="高雄大遠百葳莠影城"></option>
+                        </optgroup>
+                        <optgroup label="東部">
+                            <option label="花蓮新天堂樂園葳莠影城"></option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p id="selectset">
+                    選擇影片
+                    <select name="" id="selectset">
+                            <option label="復仇者聯盟：終局之戰"></option>
+                            <option label="名偵探皮卡丘"></option>
+                            <option label="哥吉拉 II 怪獸之王"></option>
+                            <option label="捍衛任務3：全面開戰"></option>
+                            <option label="五月天 人生無限公司"></option>
+                            <option label="阿拉丁"></option>
+                            <option label="X戰警：黑鳳凰"></option>
+                            <option label="玩具總動員 4"></option>
+                    </select>
+                </p>
+                <p id="selectset">
+                    選擇日期
+                    <select name="" id="selectset">
+                            <option label="2019/06/11"></option>
+                            <option label="2019/06/12"></option>
+                            <option label="2019/06/13"></option>
+                            <option label="2019/06/14"></option>
+                            <option label="2019/06/15"></option>
+                    </select>
+                </p>
+                <p id="selectset">
+                    選擇場次
+                    <select name="" id="selectset">
+                            <option label="09:50"></option>
+                            <option label="11:20"></option>
+                            <option label="12:20"></option>
+                            <option label="13:50"></option>
+                            <option label="14:50"></option>
+                            <option label="17:20"></option>
+                            <option label="19:50"></option>
+                            <option label="21:20"></option>
+                            <option label="22:20"></option>
+                            <option label="23:50"></option>
+                            <option label="00:50(隔日)"></option>
+                    </select>
+                </p>
+                <p id="selectset">
+                    <input type="submit" value="前往訂票">
+                </p>
+            </form>
+        </div>
+        <div>
+            <h1 id="paragraph">現正熱映</h1>
+        </div>
+        <div>
+            <table>
+                <tr id="movietrset">
+                    <td>
+                        <p>
+                            <a href="介紹1.html">
+                                <img id="imgset" src="圖片/movie1.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹2.html">
+                                <img id="imgset" src="圖片/movie2.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹3.html">
+                                <img id="imgset" src="圖片/movie3.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹4.html">
+                                <img id="imgset" src="圖片/movie4.jpg">
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+                <tr id="movietrset">
+                    <td>
+                        <p id="movietextset">
+                            復仇者聯盟：終局之戰
+                        </p>
+                    </td>
+                    <td>
+                        <p id="movietextset">
+                            名偵探皮卡丘
+                        </p>
+                    </td>
+                    <td>
+                        <p id="movietextset">
+                            哥吉拉 II 怪獸之王
+                        </p>
+                    </td>
+                    <td>
+                        <p id="movietextset">
+                            捍衛任務3：全面開戰
+                        </p>
+                    </td>
+                </tr>
+                <tr id="movietrset">
+                    <td>
+                        <p id="movietextset">
+                            3 時 1 分
+                        </p>
+                    </td>
+                    <td>
+                        <p id="movietextset">
+                            1 時 45 分
+                        </p>
+                    </td>
+                    <td>
+                        <p id="movietextset">
+                            2 時 12 分
+                        </p>
+                    </td>
+                    <td>
+                        <p id="movietextset">
+                            2 時 11 分
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h1 id="paragraph">影城據點</h1>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <td id="locationtextset"><a href="影城據點(北部).html"><h2>北部</h2></a></td>
+                        <td id="locationtextset"><a href="影城據點(中部).html"><h2>中部</h2></a></td>
+                        <td id="locationtextset"><a href="影城據點(南部).html"><h2>南部</h2></a></td>
+                        <td id="locationtextset"><a href="影城據點(東部).html"><h2>東部</h2></a></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="location">
+                        <td valign="top">
+                            <p id="locationtextset">
+                                台北信義葳莠影城
+                            </p>
+                            <p id="locationtextset">
+                                台北京站葳莠影城
+                            </p>
+                            <p id="locationtextset">
+                                台北日新葳莠影城
+                            </p>
+                        </td>
+                        <td valign="top">
+                            <p id="locationtextset">
+                                台中大遠百葳莠影城
+                            </p>
+                            <p id="locationtextset">
+                                台中TIGER CITY葳莠影城
+                            </p>
+                        </td>
+                        <td valign="top">
+                            <p id="locationtextset">
+                                台南大遠百葳莠影城
+                            </p>
+                            <p id="locationtextset">
+                                台南南紡葳莠影城
+                            </p>
+                            <p id="locationtextset">
+                                高雄大遠百葳莠影城
+                            </p>
+                        </td>
+                        <td valign="top">
+                            <p id="locationtextset">
+                                花蓮新天堂樂園葳莠影城
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h1 id="paragraph">影城介紹</h1>
+        </div>
+        <div id="aboutbg">
+            <p id="about">
+                葳莠影城，自1998年營業至今，為台灣最大的連鎖影城，全台共計16座據點。
+                北部目前擁有3座，大台中為2座，台南高雄共3座，以及花蓮1座。
+                全台共計162個影廳，總座位數約 30,554席。
+            </p>
+            <p id="about">
+                其中特殊影廳，包含7個數位 IMAX 影廳、1個雷射IMAX 影廳(花蓮新天堂樂園)。 
+                5個4DX影廳，一座全新概念的Mappa特殊影廳，以及4個GOLD CLASS頂級影廳。
+            </p>  
+            <p id="about">
+                影城擁有最出色的播映設備，包括IMAX和3D設備，是全台首座結合商場而成的複合式影城，
+                也因影城多角化經營而讓葳莠影城成為台灣影城界的領導品牌，並深耕海外直播演唱會及舞台劇。
+                葳莠影城預計將繼續增開新點，希望能將影像事業推展為文化產業。
+            </p>
+        </div>
+        <footer>
+            <div id="footercontainer">
+                <div id="footeritem">
+                    <p id="footertextpos">&copy 網頁設計期末專案</p>
+                </div>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+                <a href="聯絡我們.html"><div id="footeritem">
+                    <p>聯絡我們</p>
+                </div></a>
+                <a href="意見回饋.html"><div id="footeritem">
+                    <p>意見回饋</p>
+                </div></a>
+                <a href="影城據點.html"><div id="footeritem">
+                    <p>影城據點</p>
+                </div></a>
+                <a href="隱私權.html"><div id="footeritem">
+                    <p>隱私權策略</p>
+                </div></a>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+			</div>
+        </footer>
+    </body>
+</html>

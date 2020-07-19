@@ -1,0 +1,262 @@
+﻿<!doctype html>
+<html lang=zh-tw>
+    <!--期末專案-->
+    <head>
+        <title>
+            網頁設計 期末專案
+        </title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <style>
+            /*--------------------以下可修改--------------------*/
+            /*----------table----------*/
+            table
+            {
+                margin-left:auto; 
+                margin-right:auto;
+                text-align:center;
+                width: 80%;
+            }
+            td
+            {
+                vertical-align: auto;
+                word-break: break-all;
+            }
+            /*---------- ----------*/
+    
+            /*--------------------格式設定--------------------*/
+            /*----------paragraph----------*/
+            #paragraph
+            {
+                text-align: center;
+                color: white;
+                background-color: black;
+            }
+            /*---------- ----------*/
+            /*----------movie----------*/
+            #movietrset
+            {
+                width: auto;
+                max-width: auto;
+            }
+            #movietextset
+            {
+                width: auto;
+                height: auto;
+                text-align: center;
+                background:linear-gradient;
+                break-before: column;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+            /*---------- ----------*/
+            /*----------intro----------*/
+            #movieintroimg
+            {
+                max-width: 300px;
+                width: auto;
+                height: auto;
+            }
+            #introtitle
+            {
+                text-align: left;
+            }
+            #introcontent
+            {
+                text-align: left;
+                margin: auto;
+                margin-left: 2em;
+            }
+            #iframescale            /*width 100*0.8=80vw width/height*0.8*100=*vw*/
+            {
+                text-align: center;
+                width: 80vw;
+                height: 45vw;
+                overflow: hidden;
+            }
+            #iframebox
+            {
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+            #pagetextset
+            {
+                text-align: center;
+            }
+            #intropage
+            {
+                color: lightgray;
+            }
+            #intropageout
+            {
+                color: gray;
+            }
+            #intropageup
+            {
+                color: gray;
+            }
+            #intropagedown
+            {
+                color: gray;
+            }
+            #intropagedisable
+            {
+                color: lightgray;
+            }
+            /*---------- ----------*/
+        </style>
+    </head>
+    <body>
+        <header>
+			<div id="container">
+                <a href="首頁.html"><div id="titleitem">
+                    <h1 id="titlestyle">葳莠影城</h1>
+                </div></a>
+                <div id="titleitem2">
+                    <h1></h1>
+                </div>
+                <a href="活動公告.html"><div id="titleitem">
+                    <h1 id="titlestyle">活動公告</h1>
+                </div></a>
+                <a href="介紹.html"><div id="titleitem">
+                    <h1 id="titlestyle">電影介紹</h1>
+                </div></a>
+                <a href="場次查詢.html"><div id="titleitem">
+                    <h1 id="titlestyle">場次查詢</h1>
+                </div></a>
+                <a href="票價資訊.html"><div id="titleitem">
+                    <h1 id="titlestyle">票價資訊</h1>
+                </div></a>
+			</div>
+        </header>
+        <div>
+            <img id="mainimgset" src="圖片/banner.gif">
+        </div>
+        <div>
+            <h1 id="paragraph">電影介紹</h1>
+        </div>
+        <div>
+            <table>
+                <tr id="movietrset">
+                    <td>
+                        <p>
+                            <a href="介紹1.html">
+                                <img id="imgset" src="圖片/movie1.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹2.html">
+                                <img id="imgset" src="圖片/movie2.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹3.html">
+                                <img id="imgset" src="圖片/movie3.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹4.html">
+                                <img id="imgset" src="圖片/movie4.jpg">
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            <img id="movieintroimg" src="圖片/movie2.jpg">
+                        </p>
+                    </td>
+                    <td colspan="2">
+                        <h3 id="introtitle">導演</h3>
+                        <p id="introcontent">
+                            羅勃賴特曼(Rob Letterman)
+                        </p>
+                        <br>
+                        <h3 id="introtitle">演員</h3>
+                        <p id="introcontent">
+                            萊恩雷諾斯(Ryan Reynolds) 、 比爾奈伊(Bill Nighy) 、 蘇琪沃特豪斯(Suki Waterhouse) 、 凱瑟琳紐頓(Kathryn Newton) 、 渡邊謙(Ken Watanabe) 、 賈斯提斯史密斯(Justice Smith) 、 瑞塔歐拉(Rita Ora)
+                        </p>
+                        <br>
+                        <h3 id="introtitle">簡介</h3>
+                        <p id="introcontent">
+                            《名偵探皮卡丘》故事敘述一名王牌私家偵探哈利古曼神秘失蹤了，
+                            在求助無門的情況下，他的兒子提姆決心要自己查出父親的下落，
+                            他想求助父親的前寶可夢搭檔…皮卡丘，卻意外發現這隻皮卡丘與眾不同，
+                            皮卡丘與提姆二者竟然能夠說話溝通！僅管聽在他人的耳裡，
+                            這頭皮卡丘與其他皮卡丘發出的聲音一樣是尖細、可愛的「皮卡、皮卡」；
+                            但聽在提姆耳裡卻十足像是個大叔的聲音，
+                            然而這個喜歡搞笑、可愛、討喜又不按牌理出牌的的超級偵探與提姆一拍即合。
+                            為了尋找提姆的父親哈利，他們聯手展開一場刺激又瘋狂的冒險旅程，
+                            設法解開一個又一個複雜謎團。他們穿梭在萊姆市繁華的霓虹街道中，
+                            這是一個略顯雜亂卻又超現實的現代都會，在萊姆市裡，
+                            人類與他們喜愛的寶可夢共同生活在一起，在一連串冒險的旅程中，
+                            提姆與皮卡丘將遇到各式各樣的寶可夢角色，
+                            也將揭露一樁極有可能摧毀寶可夢與人類和平共存現狀的陰謀，
+                            甚至可能摧毀整個寶可夢宇宙….。<br>
+                            <br>
+                            電影《名偵探皮卡丘》由羅勃賴特曼執導，賈斯提史密斯飾演提姆，
+                            萊恩雷諾斯為名偵探皮卡丘配音，凱薩琳紐頓飾演露西，
+                            是一位第一次追蹤重大新聞的菜鳥記者，渡邊謙則飾演吉田探長。<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <p id="iframescale">
+                            <iframe id="iframebox" src="https://www.youtube.com/embed/iI0U7_LzGlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p id="pagetextset">
+                <span id="intropagedown"><a href="介紹1.html">&lt</a></span>
+                <span id="intropageout"><a href="介紹1.html">1</a></span>
+                <span id="intropage"><a href="介紹2.html">2</a></span>
+                <span id="intropageout"><a href="介紹3.html">3</a></span>
+                <span id="intropageout"><a href="介紹4.html">4</a></span>
+                <span id="intropageout"><a href="介紹5.html">5</a></span>
+                <span id="intropageout"><a href="介紹6.html">6</a></span>
+                <span id="intropageup"><a href="介紹3.html">&gt</a></span>
+            </p>
+        </div>
+        <footer>
+            <div id="footercontainer">
+                <div id="footeritem">
+                    <p id="footertextpos">&copy 網頁設計期末專案</p>
+                </div>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+                <a href="聯絡我們.html"><div id="footeritem">
+                    <p>聯絡我們</p>
+                </div></a>
+                <a href="意見回饋.html"><div id="footeritem">
+                    <p>意見回饋</p>
+                </div></a>
+                <a href="影城據點.html"><div id="footeritem">
+                    <p>影城據點</p>
+                </div></a>
+                <a href="隱私權.html"><div id="footeritem">
+                    <p>隱私權策略</p>
+                </div></a>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+			</div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,194 @@
+﻿<!doctype html>
+<html lang=zh-tw>
+    <!--期末專案-->
+    <head>
+        <title>
+            網頁設計 期末專案
+        </title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <style>
+            /*--------------------以下可修改--------------------*/
+            /*----------form----------*/
+            form
+            {
+                margin: auto;
+                padding: 0;
+                width: auto;
+            }
+            p#selectset
+            {
+                text-align: center;
+            }
+            select#selectset
+            {
+                text-align: center;
+                width: 250px;
+            }
+            /*---------- ----------*/
+            /*----------table----------*/
+            table
+            {
+                margin-left:auto; 
+                margin-right:auto;
+                text-align:center;
+                width: 100%;
+            }
+            /*----------td有修改 ----------*/
+            td
+            {
+                font-size: 15px;
+                padding-top:15px;
+                position: relative; top: 100px;
+            }
+            /*---------- ----------*/
+    
+            /*--------------------格式設定--------------------*/
+            /*----------paragraph----------*/
+            #paragraph
+            {
+                text-align: center;
+                color: white;
+                background-color: black;
+            }
+            /*---------- ----------*/
+            /*----------movie----------*/
+            #movietrset
+            {
+                width: auto;
+                max-width: auto;
+            }
+            #movietextset
+            {
+                width: auto;
+                height: auto;
+                text-align: center;
+                background:linear-gradient;
+                break-before: column;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+            /*---------- ----------*/
+            /*----------location----------*/
+            #location
+            {
+                width: auto;
+                max-width: auto;
+            }
+            /*---------- #locationtextset有修改 ----------*/
+            #locationtextset
+            {
+                width: auto;
+                text-align: center;
+                margin-left: 8px;
+                margin-right: 8px;
+                font-weight: bold; 
+            }
+            /*---------- ----------*/
+            /*----------about----------*/
+            #aboutbg
+            {
+                background-image:url(圖片/about.jpg);
+                background-color: black;
+                background-size:100% auto;
+            }
+            p#about
+            {
+                width: 70%;
+                margin-left: 15%;
+                color: lightgray;
+            }
+            /*----------以下為新增----------*/
+            #container2 
+            {
+                width:100%; 
+                height:500px; 
+                display: flex;  
+                justify-content: center;
+            }
+            h2 
+            { 
+                width:15%; 
+                height:400px; 
+                text-align: center; 
+                padding-top:30px; 
+                font-size:20px; 
+            }
+            h2:hover
+            {
+                background-color: lightgray;
+                height: 450px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+			<div id="container">
+                <a href="首頁.html"><div id="titleitem">
+                    <h1 id="titlestyle">葳莠影城</h1>
+                </div></a>
+                <div id="titleitem2">
+                    <h1></h1>
+                </div>
+                <a href="活動公告.html"><div id="titleitem">
+                    <h1 id="titlestyle">活動公告</h1>
+                </div></a>
+                <a href="介紹.html"><div id="titleitem">
+                    <h1 id="titlestyle">電影介紹</h1>
+                </div></a>
+                <a href="場次查詢.html"><div id="titleitem">
+                    <h1 id="titlestyle">場次查詢</h1>
+                </div></a>
+                <a href="票價資訊.html"><div id="titleitem">
+                    <h1 id="titlestyle">票價資訊</h1>
+                </div></a>
+			</div>
+        </header>
+        <div>
+            <img id="mainimgset" src="圖片/banner.gif">
+        </div>
+        <div>
+            <h1 id="paragraph">活動公告</h1>
+        </div>
+        <div id="container2">
+            <h2><a href="感謝上帝.html"><img src="圖片/event_20190509001.jpg" alt="感謝上帝" width="200px" height="280px" style="display:block; margin:auto;"/></a>
+                <br>【感謝上帝】獨家抽獎<br><small>2019/05/10-2019/05/16</small></h2>
+
+            <h2><a href="哥吉拉.html"><img src="圖片/Godzilla-2.jpeg" alt="哥吉拉" width="200px" height="280px" style="display:block; margin:auto;"/></a>
+                <br>【哥吉拉 II 怪獸之王】<br>影迷限定海報<br><small>2019/05/29-2019/06/05</small></h2>
+
+            <h2><a href="生日禮.html"><img src="圖片/event_20190524001.jpg" alt="生日禮" width="200px" height="280px" style="display:block; margin:auto;"/></a>
+                <br>桃你歡心！<br>6月影迷限定生日禮<br><small>2019/06/01-2019/06/30</small></h2>
+
+            <h2><a href="拿好禮.html"><img src="圖片/event_20190515001.jpg" alt="市民觀影" width="200px" height="280px" style="display:block; margin:auto;"/></a>
+                <br>市民觀影拿好禮<br>享受平日好時光<br><small>2019/06/03-2019/06/27</small></h2>
+
+            <h2><a href="黑鳳凰.html"><img src="圖片/5cc7aa8a2101a.jpg" alt="黑鳳凰" width="200px" height="280px" style="display:block; margin:auto;"/></a>
+                <br>【X戰警：黑鳳凰】<br>影迷限定海報<br><small>2019/06/06-2019/06/13</small></h2>
+        </div>
+        <footer>
+            <div id="footercontainer">
+                <div id="footeritem">
+                    <p id="footertextpos">&copy 網頁設計期末專案</p>
+                </div>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+                <a href="聯絡我們.html"><div id="footeritem">
+                    <p>聯絡我們</p>
+                </div></a>
+                <a href="意見回饋.html"><div id="footeritem">
+                    <p>意見回饋</p>
+                </div></a>
+                <a href="影城據點.html"><div id="footeritem">
+                    <p>影城據點</p>
+                </div></a>
+                <a href="隱私權.html"><div id="footeritem">
+                    <p>隱私權策略</p>
+                </div></a>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+			</div>
+        </footer>
+    </body>
+</html>

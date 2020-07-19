@@ -1,0 +1,282 @@
+﻿<!doctype html>
+<html lang=zh-tw>
+    <!--期末專案-->
+    <head>
+        <title>
+            網頁設計 期末專案
+        </title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <style>
+	    /*--------------------以下可修改--------------------*/
+        /*----------table----------*/
+        table
+        {
+            margin-left:auto; 
+            margin-right:auto;
+            text-align:center;
+            width: 80%;
+        }
+        td
+        {
+            vertical-align: auto;
+            word-break: break-all;
+        }
+        /*---------- ----------*/
+        
+        /*----------paragraph----------*/
+        #paragraph
+         {
+                text-align: center;
+                color: white;
+                background-color: black;
+        }
+	    #paragraph2
+        {
+            text-align: left;
+            font-size: 18px;
+            height: 50px;
+            padding-top:15px;
+        }
+        /*----------form----------*/
+        form
+        {
+            margin: auto;
+            padding: 0;
+            width: auto;
+        }
+        p#selectset
+        {
+            text-align: center;
+            font-family:微軟正黑體;
+        }
+        p#selectset1
+        {
+            text-align: center;
+            font-family:微軟正黑體;
+        }
+        select#selectset
+        {
+            text-align: center;
+            width: 100px;
+        }
+        select#selectset1
+        {
+            text-align:left;
+            width: 100px;
+        }
+        /*---------- ----------*/
+        /*----------movie----------*/
+        #movietrset
+        {
+            width: auto;
+            max-width: auto;
+        }
+        #movietextset
+        {
+            width: auto;
+            height: auto;
+            text-align: center;
+			background:linear-gradient;
+            break-before: column;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+        /*---------- ----------*/
+        /*----------location----------*/
+        #location
+        {
+            width: auto;
+            max-width: auto;
+        }
+        #locationtextset
+        {
+			width: auto;
+            text-align: center;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+        /*---------- ----------*/
+        #columnbreak
+        {
+            break-before: column;
+        }
+        p#level1
+        {
+			height:50px;
+			background:linear-gradient(to bottom,white,lightgray)
+        }
+		p#level2
+        {
+			height:50px;
+			background:linear-gradient(to top,white,lightgray)
+        }
+		p#level3
+        {
+			height:50px;
+			background:linear-gradient(to bottom right,white,lightblue,lightgray)
+        }
+        /*----------about----------*/
+		#aboutbg
+		{
+            background-image:url(圖片/about.jpg);
+            background-color: black;
+            background-size:100% auto;
+		}
+        p#about
+		{
+            width: 70%;
+            margin-left: 15%;
+            color: black;
+		}
+
+        #container2
+        {
+            top:100px; 
+            width: 1000px;
+            height:300px; 
+            display: flex; 
+            flex-direction:row; 
+            justify-content: end;
+        }
+        #item1
+        {
+            width: 500px; 
+            font-family:微軟正黑體; 
+            position: relative;  
+            top:70px; 
+            left: 500px;
+        }
+        #item2{
+            width: 500px;
+            font-family:微軟正黑體; 
+            text-align: center; 
+            position: relative; 
+            top:-90px; 
+            left:800px;
+        }
+    	</style>
+    </head>
+    <body>
+        <header>
+            <div id="container">
+                <a href="首頁.html"><div id="titleitem">
+                    <h1 id="titlestyle">葳莠影城</h1>
+                </div></a>
+                <div id="titleitem2">
+                    <h1></h1>
+                </div>
+                <a href="活動公告.html"><div id="titleitem">
+                    <h1 id="titlestyle">活動公告</h1>
+                </div></a>
+                <a href="介紹.html"><div id="titleitem">
+                    <h1 id="titlestyle">電影介紹</h1>
+                </div></a>
+                <a href="場次查詢.html"><div id="titleitem">
+                    <h1 id="titlestyle">場次查詢</h1>
+                </div></a>
+                <a href="票價資訊.html"><div id="titleitem">
+                    <h1 id="titlestyle">票價資訊</h1>
+                </div></a>
+            </div>
+        </header>
+        <div>
+            <img id="mainimgset" src="圖片/banner.gif">
+        </div>
+        <div>
+            <h1 id="paragraph">場次查詢</h1>
+        </div>
+        <div>
+            <p id="selectset1"><label>影城名稱</label>
+            <p id="selectset1"><input type="search" name="searching"autofocus placeholder="影城名稱"></p>          
+            <p id="selectset1"><label>放映期間</label>
+            <p id="selectset1"><input type="week" name="wnum"></p>
+            <p id="selectset1"><input type="button" value="搜尋"></p>
+            <h1 id="paragraph">台北京站葳莠影城  2019.06.01 - 2019.06.09</h1>
+            <h1 id="paragraph2">(3D 數位)哥吉拉 II 怪獸之王 (保護級)</h1>
+            <dl>
+                <dt>
+                    <pre>
+            06月01日 星期六 
+            18:10 20:40 
+
+            06月02日 星期日 
+            15:40 18:10 20:40 
+
+            06月03日 星期一 
+            15:40 18:10 20:40
+
+            06月04日 星期二 
+            15:40 18:10 20:40 
+
+            06月05日 星期三 
+            15:40 18:10 20:40
+                    </pre>
+                </dt>
+            </dl>
+            <h1 id="paragraph2">(3D 數位)五月天 人生無限公司 (普遍級)</h1>
+            <dl>
+                <dt>
+                    <pre>
+            06月01日 星期六 
+            16:15 20:30
+
+            06月02日 星期日 
+            09:55 12:00 16:15 20:30
+
+            06月03日 星期一 
+            09:55 12:10 16:25 20:35
+
+            06月04日 星期二 
+            09:55 12:10 16:25 20:35
+
+            06月05日 星期三 
+            09:55 12:10 16:25 20:35
+                    </pre>
+                </dt>
+            </dl>
+            <h1 id="paragraph2">(數位 國)阿拉丁 (普遍級)</h1>
+            <dl>
+                <dt>
+                    <pre>
+            06月01日 星期日 
+            09:10 13:40
+
+            06月02日 星期一 
+            10:20 15:05
+
+            06月03日 星期二 
+            10:20 15:05
+
+            06月04日 星期三 
+            10:20 15:05
+                    </pre>
+                </dt>
+            </dl>
+        </div>
+        <footer>
+            <div id="footercontainer">
+                <div id="footeritem">
+                    <p id="footertextpos">&copy 網頁設計期末專案</p>
+                </div>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+                <a href="聯絡我們.html"><div id="footeritem">
+                    <p>聯絡我們</p>
+                </div></a>
+                <a href="意見回饋.html"><div id="footeritem">
+                    <p>意見回饋</p>
+                </div></a>
+                <a href="影城據點.html"><div id="footeritem">
+                    <p>影城據點</p>
+                </div></a>
+                <a href="隱私權.html"><div id="footeritem">
+                    <p>隱私權策略</p>
+                </div></a>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+			</div>
+        </footer>
+    </body>
+</html>

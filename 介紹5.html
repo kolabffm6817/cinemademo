@@ -1,0 +1,261 @@
+﻿<!doctype html>
+<html lang=zh-tw>
+    <!--期末專案-->
+    <head>
+        <title>
+            網頁設計 期末專案
+        </title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <style>
+            /*--------------------以下可修改--------------------*/
+            /*----------table----------*/
+            table
+            {
+                margin-left:auto; 
+                margin-right:auto;
+                text-align:center;
+                width: 80%;
+            }
+            td
+            {
+                vertical-align: auto;
+                word-break: break-all;
+            }
+            /*---------- ----------*/
+    
+            /*--------------------格式設定--------------------*/
+            /*----------paragraph----------*/
+            #paragraph
+            {
+                text-align: center;
+                color: white;
+                background-color: black;
+            }
+            /*---------- ----------*/
+            /*----------movie----------*/
+            #movietrset
+            {
+                width: auto;
+                max-width: auto;
+            }
+            #movietextset
+            {
+                width: auto;
+                height: auto;
+                text-align: center;
+                background:linear-gradient;
+                break-before: column;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+            /*---------- ----------*/
+            /*----------intro----------*/
+            #movieintroimg
+            {
+                max-width: 300px;
+                width: auto;
+                height: auto;
+            }
+            #introtitle
+            {
+                text-align: left;
+            }
+            #introcontent
+            {
+                text-align: left;
+                margin: auto;
+                margin-left: 2em;
+            }
+            #iframescale            /*width 100*0.8=80vw width/height*0.8*100=*vw*/
+            {
+                text-align: center;
+                width: 80vw;
+                height: 45vw;
+                overflow: hidden;
+            }
+            #iframebox
+            {
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+            #pagetextset
+            {
+                text-align: center;
+            }
+            #intropage
+            {
+                color: lightgray;
+            }
+            #intropageout
+            {
+                color: gray;
+            }
+            #intropageup
+            {
+                color: gray;
+            }
+            #intropagedown
+            {
+                color: gray;
+            }
+            #intropagedisable
+            {
+                color: lightgray;
+            }
+            /*---------- ----------*/
+        </style>
+    </head>
+    <body>
+        <header>
+			<div id="container">
+                <a href="首頁.html"><div id="titleitem">
+                    <h1 id="titlestyle">葳莠影城</h1>
+                </div></a>
+                <div id="titleitem2">
+                    <h1></h1>
+                </div>
+                <a href="活動公告.html"><div id="titleitem">
+                    <h1 id="titlestyle">活動公告</h1>
+                </div></a>
+                <a href="介紹.html"><div id="titleitem">
+                    <h1 id="titlestyle">電影介紹</h1>
+                </div></a>
+                <a href="場次查詢.html"><div id="titleitem">
+                    <h1 id="titlestyle">場次查詢</h1>
+                </div></a>
+                <a href="票價資訊.html"><div id="titleitem">
+                    <h1 id="titlestyle">票價資訊</h1>
+                </div></a>
+			</div>
+        </header>
+        <div>
+            <img id="mainimgset" src="圖片/banner.gif">
+        </div>
+        <div>
+            <h1 id="paragraph">電影介紹</h1>
+        </div>
+        <div>
+            <table>
+                <tr id="movietrset">
+                    <td>
+                        <p>
+                            <a href="介紹1.html">
+                                <img id="imgset" src="圖片/movie1.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹2.html">
+                                <img id="imgset" src="圖片/movie2.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹3.html">
+                                <img id="imgset" src="圖片/movie3.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹4.html">
+                                <img id="imgset" src="圖片/movie4.jpg">
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            <img id="movieintroimg" src="圖片/movie5.jpg">
+                        </p>
+                    </td>
+                    <td colspan="2">
+                        <h3 id="introtitle">導演</h3>
+                        <p id="introcontent">
+                            仙草影像 、 陳奕仁
+                        </p>
+                        <br>
+                        <h3 id="introtitle">演員</h3>
+                        <p id="introcontent">
+                            阿信 、 怪獸 、 石頭 、 冠佑 、 瑪莎(Masa)                        
+                        <br>
+                        <h3 id="introtitle">簡介</h3>
+                        <p id="introcontent">
+                                《五月天人生無限公司》由怪獸、石頭、瑪莎、冠佑、阿信領銜主演，
+                                黃渤、梁家輝特別主演，415萬社員演員共同主演，仙草影像、陳奕仁執導。
+                                由「昨日歡樂街頭戰」揭開故事序幕，五月天化身五位具有超能力的救世英雄，
+                                組成一支菁英戰隊「第五分隊」，
+                                吉他手怪獸飾演紅色盔甲身手矯健的 Mr. Monster；
+                                吉他手石頭飾演堅硬如石的 Lonely Stone；
+                                鼓手冠佑飾演搞笑運氣又超好的十字弓射手 Mini Ming，
+                                就連蹲下撿錢都可以躲過一波攻擊；
+                                貝斯手瑪莎飾演尖酸幽默坐擁重裝軍火的地獄貓 Hell Kitty；
+                                主唱阿信則飾演有著魔法超能力，天才慧黠的 Honey Potter。
+                                五人歷經大戰後回到「今日魯蛇唱片行」，過著話當年的平凡生活，
+                                直到長官現身「重新召集大家」對抗剛烈的怪獸，
+                                看著「今日魯蛇唱片行」將成為攻擊範圍，「第五分隊」決定起身拯救地球，
+                                捍衛最初的音樂，重新訓練與迎戰，「人生無限公司」122個夜晚結束之後，
+                                五位英雄人物又何去何從？做了什麼？吃了多少火鍋？
+                                怪獸的自拍鏡頭又紀錄了哪些旅程呢？「人生無限公司」將在大銀幕繼續營業。<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <p id="iframescale">
+                            <iframe id="iframebox" src="https://www.youtube.com/embed/hx7YRiFFQP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p id="pagetextset">
+                <span id="intropagedown"><a href="介紹4.html">&lt</a></span>
+                <span id="intropageout"><a href="介紹1.html">1</a></span>
+                <span id="intropageout"><a href="介紹2.html">2</a></span>
+                <span id="intropageout"><a href="介紹3.html">3</a></span>
+                <span id="intropageout"><a href="介紹4.html">4</a></span>
+                <span id="intropage"><a href="介紹5.html">5</a></span>
+                <span id="intropageout"><a href="介紹6.html">6</a></span>
+                <span id="intropageout"><a href="介紹7.html">7</a></span>
+                <span id="intropageout"><a href="介紹8.html">8</a></span>
+                <span id="intropageup"><a href="介紹6.html">&gt</a></span>
+            </p>
+        </div>
+        <footer>
+            <div id="footercontainer">
+                <div id="footeritem">
+                    <p id="footertextpos">&copy 網頁設計期末專案</p>
+                </div>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+                <a href="聯絡我們.html"><div id="footeritem">
+                    <p>聯絡我們</p>
+                </div></a>
+                <a href="意見回饋.html"><div id="footeritem">
+                    <p>意見回饋</p>
+                </div></a>
+                <a href="影城據點.html"><div id="footeritem">
+                    <p>影城據點</p>
+                </div></a>
+                <a href="隱私權.html"><div id="footeritem">
+                    <p>隱私權策略</p>
+                </div></a>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+			</div>
+        </footer>
+    </body>
+</html>

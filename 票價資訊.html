@@ -1,0 +1,205 @@
+﻿<!doctype html>
+<html lang=zh-tw>
+    <!--期末專案-->
+    <head>
+        <title>
+            網頁設計 期末專案
+        </title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <style>
+            /*--------------------以下可修改--------------------*/
+            /*----------form----------*/
+            form
+            {
+                margin: auto;
+                padding: 0;
+                width: auto;
+            }
+            p#selectset
+            {
+                text-align: center;
+            }
+            select#selectset
+            {
+                text-align: center;
+                width: 250px;
+            }
+            /*---------- ----------*/
+            /*----------table----------*/
+            table
+            {
+                margin-left:auto; 
+                margin-right:auto;
+                text-align:center;
+                width: 100%;
+            }
+            /*----------td有修改 ----------*/
+            td
+            {
+                font-size: 15px;
+                padding-top:5px;
+                position: relative; top: 100px;
+            }
+            /*----------thead為新增 ----------*/
+            thead
+            {
+                background-color: lightgray; 
+                text-align: center;
+            }
+    
+            /*---------- ----------*/
+    
+            /*--------------------格式設定--------------------*/
+            /*----------paragraph----------*/
+            #paragraph
+            {
+                text-align: center;
+                color: white;
+                background-color: black;
+            }
+            /*---------- ----------*/
+            /*----------movie----------*/
+            #movietrset
+            {
+                width: auto;
+                max-width: auto;
+            }
+            #movietextset
+            {
+                width: auto;
+                height: auto;
+                text-align: center;
+                background:linear-gradient;
+                break-before: column;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+            /*---------- ----------*/
+            /*----------location----------*/
+            #location
+            {
+                width: auto;
+                max-width: auto;
+            }
+            /*---------- #locationtextset有修改 ----------*/
+            #locationtextset
+            {
+                width: auto;
+                text-align: center;
+                margin-left: 8px;
+                margin-right: 8px;
+                font-weight: bold; 
+            }
+            /*---------- ----------*/
+            /*----------about----------*/
+            #aboutbg
+            {
+                background-image:url(圖片/about.jpg);
+                background-color: black;
+                background-size:100% auto;
+            }
+            p#about
+            {
+                width: 70%;
+                margin-left: 15%;
+                color: lightgray;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+			<div id="container">
+                <a href="首頁.html"><div id="titleitem">
+                    <h1 id="titlestyle">葳莠影城</h1>
+                </div></a>
+                <div id="titleitem2">
+                    <h1></h1>
+                </div>
+                <a href="活動公告.html"><div id="titleitem">
+                    <h1 id="titlestyle">活動公告</h1>
+                </div></a>
+                <a href="介紹.html"><div id="titleitem">
+                    <h1 id="titlestyle">電影介紹</h1>
+                </div></a>
+                <a href="場次查詢.html"><div id="titleitem">
+                    <h1 id="titlestyle">場次查詢</h1>
+                </div></a>
+                <a href="票價資訊.html"><div id="titleitem">
+                    <h1 id="titlestyle">票價資訊</h1>
+                </div></a>
+			</div>
+        </header>
+        <div>
+            <img id="mainimgset" src="圖片/banner.gif">
+        </div>
+        <div>
+            <h1 id="paragraph">票價資訊</h1>
+        </div>
+        <div style="height: 500px">
+            <table width="100%";>
+                <thead>
+                    <tr>
+                        <td id="locationtextset"><h2>全票<br>NT 300</h2></td>
+                        <td id="locationtextset"><h2>優待票<br>NT 260</h2></td>
+                        <td id="locationtextset"><h2>愛心敬老票<br>NT 150</h2></td>
+                        <td id="locationtextset"><h2>兒童票<br>NT 150</h2></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="location">
+                        <td valign="top">
+                            <p id="locationtextset">
+                                一般成人且無任何優惠條件<br>者請選擇全票
+                            </p>
+                           
+                        </td>
+                        <td valign="top">
+                            <p id="locationtextset">
+                                購票請出示軍警、學生、消防等<br>證件一張證件限購1張
+                            </p>
+                           
+                        </td>
+                        <td valign="top">
+                            <p id="locationtextset">
+                                六十五歲以上年長者，出示<br>可證明年齡之證件
+                            </p>
+                            <p id="locationtextset">
+                                身心障礙朋友，出示本人身心障礙手冊<br>陪同者（限一名）亦可享半價優惠
+                            </p>
+                        </td>
+                        <td valign="top">
+                            <p id="locationtextset">
+                                2歲以上，未滿12歲之兒童<br>出示可證明年齡之證件
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <div id="footercontainer">
+                <div id="footeritem">
+                    <p id="footertextpos">&copy 網頁設計期末專案</p>
+                </div>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+                <a href="聯絡我們.html"><div id="footeritem">
+                    <p>聯絡我們</p>
+                </div></a>
+                <a href="意見回饋.html"><div id="footeritem">
+                    <p>意見回饋</p>
+                </div></a>
+                <a href="影城據點.html"><div id="footeritem">
+                    <p>影城據點</p>
+                </div></a>
+                <a href="隱私權.html"><div id="footeritem">
+                    <p>隱私權策略</p>
+                </div></a>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+			</div>
+        </footer>
+    </body>
+</html>

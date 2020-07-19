@@ -1,0 +1,256 @@
+﻿<!doctype html>
+<html lang=zh-tw>
+    <!--期末專案-->
+    <head>
+        <title>
+            網頁設計 期末專案
+        </title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <style>
+            /*--------------------以下可修改--------------------*/
+            /*----------table----------*/
+            table
+            {
+                margin-left:auto; 
+                margin-right:auto;
+                text-align:center;
+                width: 80%;
+            }
+            td
+            {
+                vertical-align: auto;
+                word-break: break-all;
+            }
+            /*---------- ----------*/
+    
+            /*--------------------格式設定--------------------*/
+            /*----------paragraph----------*/
+            #paragraph
+            {
+                text-align: center;
+                color: white;
+                background-color: black;
+            }
+            /*---------- ----------*/
+            /*----------movie----------*/
+            #movietrset
+            {
+                width: auto;
+                max-width: auto;
+            }
+            #movietextset
+            {
+                width: auto;
+                height: auto;
+                text-align: center;
+                background:linear-gradient;
+                break-before: column;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+            /*---------- ----------*/
+            /*----------intro----------*/
+            #movieintroimg
+            {
+                max-width: 300px;
+                width: auto;
+                height: auto;
+            }
+            #introtitle
+            {
+                text-align: left;
+            }
+            #introcontent
+            {
+                text-align: left;
+                margin: auto;
+                margin-left: 2em;
+            }
+            #iframescale            /*width 100*0.8=80vw width/height*0.8*100=*vw*/
+            {
+                text-align: center;
+                width: 80vw;
+                height: 45vw;
+                overflow: hidden;
+            }
+            #iframebox
+            {
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+            #pagetextset
+            {
+                text-align: center;
+            }
+            #intropage
+            {
+                color: lightgray;
+            }
+            #intropageout
+            {
+                color: gray;
+            }
+            #intropageup
+            {
+                color: gray;
+            }
+            #intropagedown
+            {
+                color: gray;
+            }
+            #intropagedisable
+            {
+                color: lightgray;
+            }
+            /*---------- ----------*/
+        </style>
+    </head>
+    <body>
+        <header>
+			<div id="container">
+                <a href="首頁.html"><div id="titleitem">
+                    <h1 id="titlestyle">葳莠影城</h1>
+                </div></a>
+                <div id="titleitem2">
+                    <h1></h1>
+                </div>
+                <a href="活動公告.html"><div id="titleitem">
+                    <h1 id="titlestyle">活動公告</h1>
+                </div></a>
+                <a href="介紹.html"><div id="titleitem">
+                    <h1 id="titlestyle">電影介紹</h1>
+                </div></a>
+                <a href="場次查詢.html"><div id="titleitem">
+                    <h1 id="titlestyle">場次查詢</h1>
+                </div></a>
+                <a href="票價資訊.html"><div id="titleitem">
+                    <h1 id="titlestyle">票價資訊</h1>
+                </div></a>
+			</div>
+        </header>
+        <div>
+            <img id="mainimgset" src="圖片/banner.gif">
+        </div>
+        <div>
+            <h1 id="paragraph">電影介紹</h1>
+        </div>
+        <div>
+            <table>
+                <tr id="movietrset">
+                    <td>
+                        <p>
+                            <a href="介紹1.html">
+                                <img id="imgset" src="圖片/movie1.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹2.html">
+                                <img id="imgset" src="圖片/movie2.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹3.html">
+                                <img id="imgset" src="圖片/movie3.jpg">
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="介紹4.html">
+                                <img id="imgset" src="圖片/movie4.jpg">
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            <img id="movieintroimg" src="圖片/movie3.jpg">
+                        </p>
+                    </td>
+                    <td colspan="2">
+                        <h3 id="introtitle">導演</h3>
+                        <p id="introcontent">
+                            麥可道格堤
+                        </p>
+                        <br>
+                        <h3 id="introtitle">演員</h3>
+                        <p id="introcontent">
+                            薇拉法蜜嘉(Vera Farmiga) 、 渡邊謙(Ken Watanabe) 、 莎莉霍金斯(Sally Hawkins) 、 凱爾錢德勒(Kyle Chandler) 、 查爾斯丹斯(Charles Dance)
+                        </p>
+                        <br>
+                        <h3 id="introtitle">簡介</h3>
+                        <p id="introcontent">
+                            《哥吉拉II怪獸之王》身為傳奇影業的怪獸電影宇宙第三部電影，
+                            延續了《金剛：骷髏島》電影結局中的彩蛋，秘密行動單位：
+                            「君主組織」尋找的多頭泰坦級的怪獸，都將出現在電影中，在人類的城市裡無情地肆虐。
+                            電影預告由米莉芭比布朗飾演的麥蒂森羅素試圖透過無線電聯絡生還者做開端，
+                            但是在多頭巨獸的瘋狂肆虐下，無線電的另一頭只傳來更多的災情，
+                            許多城市似乎已經被破壞殆盡，專家們相信這些巨大的怪獸只是冰山一角，
+                            怪獸們早已遍佈世界各地，隨時準備爭奪霸權，
+                            而「君主組織」芹澤博士(渡邊謙 飾)甚至提出：我們才是哥吉拉的寵物。
+                            究竟哪幾頭怪獸會保護人類免於滅絕，又是哪幾頭要將人類消滅？
+                            預告片結尾出現傳說中哥吉拉最強悍的宿敵之一：三頭龍基多拉與哥吉拉正面對決，
+                            狂暴與衝突場面絕對能創下怪獸電影的新經典。<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <p id="iframescale">
+                            <iframe id="iframebox" src="https://www.youtube.com/embed/fBZl1h1r_w0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p id="pagetextset">
+                <span id="intropagedown"><a href="介紹2.html">&lt</a></span>
+                <span id="intropageout"><a href="介紹1.html">1</a></span>
+                <span id="intropageout"><a href="介紹2.html">2</a></span>
+                <span id="intropage"><a href="介紹3.html">3</a></span>
+                <span id="intropageout"><a href="介紹4.html">4</a></span>
+                <span id="intropageout"><a href="介紹5.html">5</a></span>
+                <span id="intropageout"><a href="介紹6.html">6</a></span>
+                <span id="intropageout"><a href="介紹7.html">7</a></span>
+                <span id="intropageup"><a href="介紹4.html">&gt</a></span>
+            </p>
+        </div>
+        <footer>
+            <div id="footercontainer">
+                <div id="footeritem">
+                    <p id="footertextpos">&copy 網頁設計期末專案</p>
+                </div>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+                <a href="聯絡我們.html"><div id="footeritem">
+                    <p>聯絡我們</p>
+                </div></a>
+                <a href="意見回饋.html"><div id="footeritem">
+                    <p>意見回饋</p>
+                </div></a>
+                <a href="影城據點.html"><div id="footeritem">
+                    <p>影城據點</p>
+                </div></a>
+                <a href="隱私權.html"><div id="footeritem">
+                    <p>隱私權策略</p>
+                </div></a>
+                <div id="footeritem2">
+                    <p></p>
+                </div>
+			</div>
+        </footer>
+    </body>
+</html>
